@@ -20,6 +20,8 @@ module.exports = async (handler) => {
 		} users.`)
 	);
 	
+	handler.client.user.setActivity('Prefix h' ,{ type: 'WATCHING' })
+
 	log();
 	setInterval(() => {
 		log();
