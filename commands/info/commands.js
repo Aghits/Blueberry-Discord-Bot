@@ -7,7 +7,7 @@ module.exports = new Command({
     name: 'commands',
     description: 'Show available commands',
     // Optionnals :
-    usage: 'hcommands',
+    usage: 'bcommands',
     category: 'info',
     nsfw: false,
     guildOnly: false,

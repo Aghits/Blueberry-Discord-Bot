@@ -4,7 +4,7 @@ module.exports = new Command({
     name: 'serverinfo',
     description: 'Shows server info',
     // Optionnals :
-    usage: 'hserverinfo',
+    usage: 'bserverinfo',
     category: 'info',
     nsfw: false,
     guildOnly: true,

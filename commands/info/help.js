@@ -4,7 +4,7 @@ module.exports = new Command({
     name: 'help',
     description: 'Show Help',
     // Optionnals :
-    usage: 'hhelp',
+    usage: 'bhelp',
     category: 'info',
     nsfw: false,
     guildOnly: false,

@@ -8,7 +8,7 @@ module.exports = new Command({
     name: 'stats',
     description: 'Show bot stats',
     // Optionnals :
-    usage: 'hstats',
+    usage: 'bstats',
     category: 'info',
     nsfw: false,
     guildOnly: false,

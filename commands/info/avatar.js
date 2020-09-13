@@ -4,7 +4,7 @@ module.exports = new Command({
     name: 'avatar',
     description: 'Show avatar',
     // Optionnals :
-    usage: 'havatar',
+    usage: 'bavatar',
     category: 'info',
     nsfw: false,
     guildOnly: false,
