@@ -6,7 +6,7 @@ Current Available Commands :
 
 Info :
 * Avatar
-* Commands ( to get list of commands and get command detail bcommands <command> )
+* Commands ( to get list of commands and get command detail bcommands -command- )
 * Server Info
 * Stats ( get the bot stats )
 
