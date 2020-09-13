@@ -4,7 +4,7 @@ module.exports = new Command({
     name: 'kick',
     description: 'Kick a users',
     // Optionnals :
-    usage: 'hkick <user>',
+    usage: 'bkick <user>',
     category: 'moderation',
     nsfw: false,
     guildOnly: false,

@@ -4,7 +4,7 @@ module.exports = new Command({
     name: 'sweep',
     description: 'Sweep the messages',
     // Optionnals :
-    usage: 'hsweep <number>',
+    usage: 'bsweep <number>',
     category: 'moderation',
     nsfw: false,
     guildOnly: false,

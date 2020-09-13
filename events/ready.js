@@ -20,7 +20,7 @@ module.exports = async (handler) => {
 		} users.`)
 	);
 	
-	handler.client.user.setActivity('Prefix h' ,{ type: 'WATCHING' })
+	handler.client.user.setActivity('Prefix b' ,{ type: 'WATCHING' })
 
 	log();
 	setInterval(() => {
