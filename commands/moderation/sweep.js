@@ -16,8 +16,8 @@ module.exports = new Command({
 
   let messagecount = parseInt(args[0]);
 
-  if ( isNaN(args[0] ) ) return message.channel.send('That\'s not a number!').then( msg => { msg.delete({ timeout: 5000 }) });
-  if ( args[0] <= 0 ) return message.channel.send('Can\' delete 0 message');
+  if ( isNaN(args[0] ) ) return message.channel.send('That\'s not a number!').then( msg => { msg.delete({ timeout: 10000 }) });
+  if ( args[0] <= 0 ) return message.channel.send('Can\'t delete 0 message');
 
   message.channel.messages.fetch({
     limit: messagecount
