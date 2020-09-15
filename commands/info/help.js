@@ -17,6 +17,7 @@ module.exports = new Command({
     .setTitle('Help')
     .setColor('BLUE')
     .setDescription('To get a list of commands type hcommands')
+    .addField('Want to invite the bot? https://discordapp.com/oauth2/authorize?client_id=459985825510195210&scope=bot&permissions=2146958847')
     .addField('Need help?', 'Join https://discord.gg/XVnJC96')
     message.channel.send(testEmbed);
 });
