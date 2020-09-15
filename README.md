@@ -12,4 +12,5 @@ Info :
 
 Moderation :
 * Kick
+* Ban
 * Sweep ( Clear messages )

@@ -20,7 +20,7 @@ module.exports = new Command({
     if ( user.kickable ) {
 
         if ( message.member.roles.highest.position > user.roles.highest.position ) {
-            user.kick(`${args.reason}`)
+            user.kick()
             let embed = new MessageEmbed()
             .setColor('YELLOW')
             .setDescription(`${user.user.tag} has been kicked from the server by ${message.author.tag}`)
