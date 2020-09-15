@@ -1,4 +1,3 @@
-const Discord = require('discord.js');
 const { CommandHandler } = require('advanced-command-handler')
 
 require('dotenv').config()

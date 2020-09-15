@@ -37,6 +37,7 @@ ${command.ownerOnly ? `**Only available to the owner(s).**` : ''}\`\`\``)
 
         let info = fs.readdirSync('./commands/info/');
         let moderation = fs.readdirSync('./commands/moderation/');
+        let owner = fs.readdirSync('./commands/owner/');
         let fields = [];
         for (let i = 0; i < 1; i++) {
         fields.push({
@@ -46,6 +47,10 @@ ${command.ownerOnly ? `**Only available to the owner(s).**` : ''}\`\`\``)
           },{
             name: 'Moderation',
             value: `\`\`\`css\n${moderation.join('\n').split('.js').join('')}\`\`\``,
+            inline: true
+          },{
+            name: 'Owner',
+            value: `\`\`\`css\n${owner.join('\n').split('.js').join('')}\`\`\``,
             inline: true
           });
 
