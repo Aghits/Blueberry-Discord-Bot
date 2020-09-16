@@ -16,7 +16,7 @@ module.exports = new Command({
     const testEmbed = new MessageEmbed()
     .setTitle('Help')
     .setColor('BLUE')
-    .setDescription('To get a list of commands type hcommands')
+    .setDescription('To get a list of commands type bcommands')
     .addField('Want to invite the bot?', 'https://discordapp.com/oauth2/authorize?client_id=459985825510195210&scope=bot&permissions=2146958847')
     .addField('Need help?', 'Join https://discord.gg/XVnJC96')
     message.channel.send(testEmbed);

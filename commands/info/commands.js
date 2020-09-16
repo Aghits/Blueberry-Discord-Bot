@@ -48,10 +48,6 @@ ${command.ownerOnly ? `**Only available to the owner(s).**` : ''}\`\`\``)
             name: 'Moderation',
             value: `\`\`\`css\n${moderation.join('\n').split('.js').join('')}\`\`\``,
             inline: true
-          },{
-            name: 'Owner',
-            value: `\`\`\`css\n${owner.join('\n').split('.js').join('')}\`\`\``,
-            inline: true
           });
 
           await message.channel.send({
